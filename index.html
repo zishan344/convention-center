@@ -28,7 +28,9 @@
         class="navbar fixed-top py-2 bg-light shadow navbar-expand-lg navbar-light bg-white"
       >
         <div class="container">
-          <a class="navbar-brand" href="#">Washington State Convetion Center</a>
+          <a class="navbar-brand font-private" href="#"
+            >Colorado Convetion Center</a
+          >
           <button
             class="navbar-toggler"
             type="button"
@@ -95,8 +97,9 @@
                   next event
                 </h1>
                 <p>
-                  Amet minim mollit non deserunt ullamco est sit aliqua <br />
-                  dolor do amet sint. Velit officia consequat duis enim velit
+                  Register today for your next event at our Convention Center.
+                  <br />
+                  And take advantage of all the opportunities
                 </p>
                 <p>
                   <a
@@ -114,8 +117,8 @@
             <div class="container">
               <div class="carousel-caption">
                 <h1>
-                  The perfect venue for your <br />
-                  next event
+                  We have many opportunities <br />
+                  for you
                 </h1>
                 <p>
                   Amet minim mollit non deserunt ullamco est sit aliqua <br />
@@ -176,12 +179,68 @@
       </div>
     </header>
     <main>
+      <!-- optional album section -->
+      <section class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 col-md-6- col-sm-12">
+            <img class="w-100" src="./images/image/wedding.png" alt="" />
+          </div>
+          <div class="col-lg-6 col-md-6- col-sm-12">
+            <h1>Every moment is Precious</h1>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+            <button class="btn btn-info text-white bg-opacity-75">
+              Explore our album <i class="fas fa-arrow-right"></i>
+            </button>
+
+            <!-- tosts -->
+            <div
+              aria-live="polite"
+              aria-atomic="true"
+              class="position-relative"
+            >
+              <!-- Position it: -->
+              <!-- - `.toast-container` for spacing between toasts -->
+              <!-- - `.position-absolute`, `top-0` & `end-0` to position the toasts in the upper right corner -->
+              <!-- - `.p-3` to prevent the toasts from sticking to the edge of the container  -->
+              <div class="toast-container position-absolute top-0 end-0 p-3">
+                <!-- Then put toasts within -->
+                <div
+                  class="toast show"
+                  role="alert"
+                  aria-live="assertive"
+                  aria-atomic="true"
+                >
+                  <div class="toast-header">
+                    <img
+                      src="./images/icons/Vector.svg"
+                      class="rounded me-2"
+                      alt="..."
+                    />
+                    <strong class="me-auto">20% off on next booking</strong>
+
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="toast"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!--  package  section -->
       <section class="container my-5">
         <h1 class="text-center py-5 text-dark fw-bolder">Our package</h1>
         <div class="row">
           <!-- card-1 -->
-          <div class="col-lg-3 col-md-6 col-sm-12 pt-5">
+          <div class="col-lg-3 col-md-6 col-sm-12 card-padding">
             <h1 class="price-title fw-bolder">
               <span>$300</span> <br />
               <span>Business fair</span>
@@ -226,7 +285,7 @@
             </button>
           </div>
           <!-- card-2 -->
-          <div class="col-lg-3 col-md-6 col-sm-12 pt-5">
+          <div class="col-lg-3 col-md-6 col-sm-12 card-padding">
             <h1 class="price-title fw-bolder">
               <span>$500</span> <br />
               <span>wedding basic</span>
@@ -272,9 +331,13 @@
           </div>
           <!-- card-3 -->
           <div class="col-lg-3 col-md-6 col-sm-12 offer-card pt-2">
-            <h1 class="price-title fw-bolder hot-offer">
+            <h1 class="price-title fw-bolder hot-offer pt-5">
               <span class="text-white">$800</span> <br />
-              <span class="text-white">Wedding plus</span>
+              <span
+                style="display: inline-block; padding-top: 20px"
+                class="text-white"
+                >Wedding plus</span
+              >
             </h1>
             <p class="text-white">For most weddings with premium plans</p>
 
@@ -320,8 +383,9 @@
               Hot
             </span>
           </div>
+
           <!-- card-4 -->
-          <div class="col-lg-3 col-md-6 col-sm-12 pt-5">
+          <div class="col-lg-3 col-md-6 col-sm-12 card-padding">
             <h1 class="price-title fw-bolder">
               <span>$1200</span> <br />
               <span>Corporate event</span>
@@ -371,7 +435,9 @@
       <!-- according section -->
       <section class="container py-5 pb-5">
         <div class="row align-items-center">
-          <div class="col-lg-6 col-md-12 col-sm-12">
+          <div
+            class="col-lg-6 col-md-12 col-sm-12 order-2 order-lg-1 order-md-1"
+          >
             <div class="accordion" id="accordionPanelsStayOpenExample">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="panelsStayOpen-headingOne">
@@ -495,9 +561,65 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class="col-lg-6 col-md-12 col-sm-12 order-1">
             <img class="w-100" src="./images/image/people.png" alt="" />
           </div>
+        </div>
+      </section>
+
+      <!-- explore ours center -->
+      <section>
+        <div class="container">
+          <h1 class="text-center my-5 price-title fw-bold">
+            CONTACT & LOCATION
+          </h1>
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <div class="row align-items-center">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <img class="w-100" src="./images/image/ccc-logo.png" alt="" />
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-12">
+                  <h5>Colorado Convention Center</h5>
+                  <address>
+                    <p>700 14th St. Denver, Colorado 80202</p>
+                    <p>P: 303.228.8000</p>
+                    <p>F: 303.228.8103</p>
+                    <p>E: zishanahmed344@gmail.com</p>
+                  </address>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <div class="row align-items-center">
+                <div class="col-lg-2 col-md-3 col-sm-12">
+                  <img src="./images/image/bellco-logo.png" alt="" />
+                </div>
+                <div class="col-lg-10 col-md-10 col-sm-12">
+                  <h1>Bellco Theatre</h1>
+                  <address>
+                    <p>700 14th St. Denver, Colorado 80202</p>
+                    <p>P: 303.228.8000</p>
+                  </address>
+                </div>
+              </div>
+            </div>
+            <div class="text-center my-5">
+              <button class="btn btn-info text-white px-3">
+                Get direction <i class="fas fa-long-arrow-alt-left"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <iframe
+            class="w-100"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d171591.4017455508!2d91.93463685026389!3d22.58925547081961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1643019358933!5m2!1sen!2sbd"
+            height="500"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
         </div>
       </section>
     </main>
@@ -513,7 +635,7 @@
             class="col-lg-6 col-md-6 col-sm-12 text-lg-end text-sm-start text-md-end order-1 order-lg-2 oreder-md-2"
           >
             <h2 class="text-white mt-5 pt-4 px-3">Get the App</h2>
-            <div class="d-flex flex-column mb-5 mt-3 px-3">
+            <div class="mb-5 mt-3 px-3">
               <a
                 target="_blank"
                 href="https://apps.apple.com/us/app/magic-tiles-3-piano-game/id1443446174"
@@ -522,6 +644,7 @@
                   src="./images/image/app-store.png"
                   alt=""
               /></a>
+              <br />
               <a
                 target="_blank"
                 href="https://play.google.com/store/apps/details?id=learn.programming.courses&hl=en&gl=US"

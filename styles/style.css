@@ -58,6 +58,9 @@ body {
   border-radius: 26px;
   position: relative;
 }
+.card-padding {
+  padding-top: 5.6rem;
+}
 /* 
 .svg-icon-footer {
   max-width: 160px;
