@@ -58,18 +58,7 @@ body {
   border-radius: 26px;
   position: relative;
 }
-/* .hot-offer::before {
-  content: "Hot";
-  position: absolute;
-  top: -14px;
-  right: 17px;
-  width: 46px;
-  display: flex;
-  color: white;
-  justify-content: center;
-  align-items: center;
-  height: 27px;
-  font-size: 13px;
-  background: #ff4e4e;
-  border-radius: 13.5px;
+/* 
+.svg-icon-footer {
+  max-width: 160px;
 } */
